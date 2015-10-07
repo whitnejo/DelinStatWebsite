@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-	background-color: #1295E5; 
+	background-color: #F8F8F8; 
 }
 p {
 
@@ -39,7 +39,7 @@ h6 {
 
 /* Header */
 header {
-	display: inline-block;
+	display: inline;
 	position: relative;
 	min-height: auto; 
 }
@@ -57,6 +57,7 @@ header {
 .nav-main {
 	display: inline-block;
 	float: right;
+	clear: right;
 }
 
 .nav-main li {
@@ -86,7 +87,7 @@ header {
 }
 
 .feature {
-	background-color: #C1D9CB;
+	background-color: #1295E5;
 }
 
 /* Secton: Content */
@@ -115,7 +116,7 @@ aside ul {
 
 /* Section: Services */
 .services {
-
+	margin: 20px;
 }
 
 .box {
@@ -142,6 +143,7 @@ aside ul {
 footer {
 	clear: both;
 	background-color: #C1D9CB;
+	margin: 20px;
 }
 
 .copyright {
